@@ -10,6 +10,7 @@ public class Ranking_Manager :BaseState
 
     string _playername;
     const string _url = "http://localhost/2018_5B/ranking_KD.php";
+    //const string _url = "http://localhost/2018_5B/ranking_KD.php"; ここにfille///:を入れて操作する
     InputField _inputField;
     GameObject _resultPanel;
     GameObject _panel;
@@ -17,7 +18,7 @@ public class Ranking_Manager :BaseState
     Text _scoreText;
 
     bool firstTime;
-    bool chack = true;
+    bool chack;
 
     public Ranking_Manager(GameManeger gm,int score,bool send_score)
     {
